@@ -7,7 +7,7 @@ import operator
 class CalculatorApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Modern BitWise Calculator")
+        self.root.title("Kalkulator")
         self.root.geometry("420x650")
         self.root.resizable(False, False)
 
