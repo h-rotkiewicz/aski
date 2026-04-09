@@ -43,8 +43,14 @@ Logika testów opiera się na asynchronicznym planowaniu zdarzeń. Funkcja `root
 #grid(
   columns: (1fr, 1fr),
   gutter: 10pt,
-  [ #rect(width: 100%, height: 150pt, stroke: 1pt + gray)[*Miejsce na screenshot: Instrukcja i wybór testu*] ],
-  [ #rect(width: 100%, height: 150pt, stroke: 1pt + gray)[*Miejsce na screenshot: Wyniki końcowe*] ]
+
+  [
+    #image("result.png", width: 100%)
+  ],
+
+  [
+    #image("Red.png", width: 100%)
+  ],
 )
 
 == 4. Dyskusja wyników

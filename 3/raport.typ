@@ -50,9 +50,16 @@ Pętla symulacji działa asynchronicznie względem interfejsu użytkownika, co p
 #grid(
   columns: (1fr, 1fr),
   gutter: 10pt,
-  [ #rect(width: 100%, height: 150pt, stroke: 1pt + gray)[*Miejsce na screenshot: Główny panel dyspozytorski*] ],
-  [ #rect(width: 100%, height: 150pt, stroke: 1pt + gray)[*Miejsce na screenshot: Okno autodiagnostyki*] ]
+
+  [
+    #image("Login.png", width: 100%)
+  ],
+
+  [
+    #image("error.png", width: 100%)
+  ],
 )
+
 
 == 4. Dyskusja wyników
 *Zalety:*
